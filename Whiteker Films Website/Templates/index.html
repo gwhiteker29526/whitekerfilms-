@@ -1,0 +1,556 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <title>Whiteker Films | Cinematic Videography</title>
+
+    <meta
+        name="description"
+        content="Whiteker Films creates cinematic videos for weddings, events, businesses, families, brands, and life's unforgettable moments."
+    >
+
+    <link
+        rel="preconnect"
+        href="https://fonts.googleapis.com"
+    >
+
+    <link
+        rel="preconnect"
+        href="https://fonts.gstatic.com"
+        crossorigin
+    >
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Montserrat:wght@300;400;500;600&display=swap"
+        rel="stylesheet"
+    >
+
+    <link
+        rel="stylesheet"
+        href="{{ url_for('static', filename='css/style.css') }}"
+    >
+
+</head>
+
+
+<body>
+
+
+<header class="navbar">
+
+    <div class="nav-container">
+
+        <a
+            href="{{ url_for('home') }}"
+            class="logo"
+        >
+            WHITEKER <span>FILMS</span>
+        </a>
+
+
+        <nav>
+
+            <a href="{{ url_for('home') }}">
+                Home
+            </a>
+
+            <a href="{{ url_for('portfolio') }}">
+                Portfolio
+            </a>
+
+            <a href="{{ url_for('services') }}">
+                Services
+            </a>
+
+            <a href="{{ url_for('about') }}">
+                About
+            </a>
+
+            <a href="{{ url_for('galleries') }}">
+                Client Galleries
+            </a>
+
+            <a
+                href="{{ url_for('contact') }}"
+                class="nav-button"
+            >
+                Inquire
+            </a>
+
+        </nav>
+
+    </div>
+
+</header>
+
+
+
+<main>
+
+
+<!-- HERO -->
+
+<section class="hero">
+
+    <div class="hero-content">
+
+        <p class="eyebrow">
+            CINEMATIC VIDEOGRAPHY • STORYTELLING • CREATIVE FILMS
+        </p>
+
+
+        <h1>
+
+            Your story,
+
+            <br>
+
+            <em>beautifully captured.</em>
+
+        </h1>
+
+
+        <p class="hero-text">
+
+            Cinematic films created to capture the moments,
+            people, brands, and stories that deserve to be remembered.
+
+        </p>
+
+
+        <a
+            href="{{ url_for('portfolio') }}"
+            class="button button-light"
+        >
+            Explore Our Work
+        </a>
+
+    </div>
+
+</section>
+
+
+
+<!-- INTRO -->
+
+<section class="section intro">
+
+    <div class="intro-text">
+
+        <p class="eyebrow">
+            WHITEKER FILMS
+        </p>
+
+
+        <h2>
+
+            More than video.
+
+            <br>
+
+            <em>It's storytelling.</em>
+
+        </h2>
+
+
+        <p>
+
+            We believe the best films do more than show what happened.
+            They make you feel it all over again.
+
+        </p>
+
+
+        <p>
+
+            From the biggest milestones to the smallest moments,
+            we create intentional, cinematic films that tell your
+            story in a way that feels authentic to you.
+
+        </p>
+
+
+        <a
+            href="{{ url_for('about') }}"
+            class="text-link"
+        >
+            Get To Know Whiteker Films →
+        </a>
+
+    </div>
+
+</section>
+
+
+
+<!-- SERVICES -->
+
+<section class="services-preview section">
+
+    <div class="section-heading">
+
+        <p class="eyebrow">
+            WHAT WE CREATE
+        </p>
+
+
+        <h2>
+
+            Films for
+
+            <em>every story.</em>
+
+        </h2>
+
+    </div>
+
+
+    <div class="services-grid">
+
+
+        <div class="service-card">
+
+            <span class="service-number">
+                01
+            </span>
+
+            <h3>
+                Weddings
+            </h3>
+
+            <p>
+                Preserve the emotion, energy, and unforgettable
+                moments of your wedding day.
+            </p>
+
+        </div>
+
+
+
+        <div class="service-card">
+
+            <span class="service-number">
+                02
+            </span>
+
+            <h3>
+                Events
+            </h3>
+
+            <p>
+                Capture the atmosphere, excitement, and moments
+                that make your event unforgettable.
+            </p>
+
+        </div>
+
+
+
+        <div class="service-card">
+
+            <span class="service-number">
+                03
+            </span>
+
+            <h3>
+                Brands & Businesses
+            </h3>
+
+            <p>
+                Tell your brand's story through professional,
+                engaging visual content.
+            </p>
+
+        </div>
+
+
+
+        <div class="service-card">
+
+            <span class="service-number">
+                04
+            </span>
+
+            <h3>
+                Families & Milestones
+            </h3>
+
+            <p>
+                Turn life's meaningful moments into films you'll
+                be able to experience for years to come.
+            </p>
+
+        </div>
+
+    </div>
+
+
+    <div class="center">
+
+        <a
+            href="{{ url_for('services') }}"
+            class="button"
+        >
+            View All Services
+        </a>
+
+    </div>
+
+</section>
+
+
+
+<!-- FEATURE -->
+
+<section class="feature-section">
+
+    <div class="feature-content">
+
+        <p class="eyebrow">
+            THE WHITEKER FILMS EXPERIENCE
+        </p>
+
+
+        <h2>
+
+            Real moments.
+
+            <br>
+
+            <em>Real emotion.</em>
+
+        </h2>
+
+
+        <p>
+
+            We aren't interested in making videos that simply look
+            beautiful. We want to create films that feel like you.
+
+        </p>
+
+
+        <a
+            href="{{ url_for('contact') }}"
+            class="button button-light"
+        >
+            Start A Project
+        </a>
+
+    </div>
+
+</section>
+
+
+
+<!-- PORTFOLIO -->
+
+<section class="section portfolio-preview">
+
+    <div class="section-heading">
+
+        <p class="eyebrow">
+            FEATURED WORK
+        </p>
+
+
+        <h2>
+
+            Stories we've
+
+            <em>captured.</em>
+
+        </h2>
+
+    </div>
+
+
+    <div class="portfolio-grid">
+
+
+        <div class="portfolio-card">
+
+            <div class="image-placeholder">
+
+                <span>
+                    Film Coming Soon
+                </span>
+
+            </div>
+
+        </div>
+
+
+
+        <div class="portfolio-card">
+
+            <div class="image-placeholder">
+
+                <span>
+                    Film Coming Soon
+                </span>
+
+            </div>
+
+        </div>
+
+
+
+        <div class="portfolio-card">
+
+            <div class="image-placeholder">
+
+                <span>
+                    Film Coming Soon
+                </span>
+
+            </div>
+
+        </div>
+
+
+    </div>
+
+
+    <div class="center">
+
+        <a
+            href="{{ url_for('portfolio') }}"
+            class="button"
+        >
+            View Portfolio
+        </a>
+
+    </div>
+
+</section>
+
+
+
+<!-- CTA -->
+
+<section class="cta-section">
+
+    <div>
+
+        <p class="eyebrow">
+            HAVE A STORY TO TELL?
+        </p>
+
+
+        <h2>
+
+            Let's create something
+
+            <br>
+
+            <em>worth remembering.</em>
+
+        </h2>
+
+
+        <a
+            href="{{ url_for('contact') }}"
+            class="button"
+        >
+            Let's Work Together
+        </a>
+
+    </div>
+
+</section>
+
+
+</main>
+
+
+
+<footer>
+
+    <div class="footer-container">
+
+
+        <div>
+
+            <a
+                href="{{ url_for('home') }}"
+                class="footer-logo"
+            >
+                WHITEKER FILMS
+            </a>
+
+
+            <p>
+                Cinematic storytelling for life's
+                moments, milestones, and brands.
+            </p>
+
+        </div>
+
+
+
+        <div class="footer-links">
+
+            <a href="{{ url_for('home') }}">
+                Home
+            </a>
+
+            <a href="{{ url_for('portfolio') }}">
+                Portfolio
+            </a>
+
+            <a href="{{ url_for('services') }}">
+                Services
+            </a>
+
+            <a href="{{ url_for('about') }}">
+                About
+            </a>
+
+            <a href="{{ url_for('contact') }}">
+                Contact
+            </a>
+
+        </div>
+
+
+
+        <div class="footer-contact">
+
+            <a href="mailto:haileyw@whitekerfilms.com">
+                haileyw@whitekerfilms.com
+            </a>
+
+        </div>
+
+
+    </div>
+
+
+    <div class="copyright">
+
+        © 2026 Whiteker Films. All rights reserved.
+
+    </div>
+
+</footer>
+
+
+
+<script
+    src="{{ url_for('static', filename='js/script.js') }}"
+></script>
+
+
+</body>
+
+</html>
+

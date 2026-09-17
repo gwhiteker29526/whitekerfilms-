@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <title>Services | Whiteker Films</title>
+
+    <link
+        rel="preconnect"
+        href="https://fonts.googleapis.com"
+    >
+
+    <link
+        rel="preconnect"
+        href="https://fonts.gstatic.com"
+        crossorigin
+    >
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Montserrat:wght@300;400;500;600&display=swap"
+        rel="stylesheet"
+    >
+
+    <link
+        rel="stylesheet"
+        href="{{ url_for('static', filename='css/style.css') }}"
+    >
+
+</head>
+
+
+<body>
+
+
+<header class="navbar">
+
+    <div class="nav-container">
+
+        <a
+            href="{{ url_for('home') }}"
+            class="logo"
+        >
+            WHITEKER <span>FILMS</span>
+        </a>
+
+
+        <nav>
+
+            <a href="{{ url_for('home') }}">Home</a>
+
+            <a href="{{ url_for('portfolio') }}">Portfolio</a>
+
+            <a href="{{ url_for('services') }}">Services</a>
+
+            <a href="{{ url_for('about') }}">About</a>
+
+            <a href="{{ url_for('galleries') }}">
+                Client Galleries
+            </a>
+
+            <a
+                href="{{ url_for('contact') }}"
+                class="nav-button"
+            >
+                Inquire
+            </a>
+
+        </nav>
+
+    </div>
+
+</header>
+
+
+
+<main>
+
+
+<section class="page-header">
+
+    <p class="eyebrow">
+        WHAT WE DO
+    </p>
+
+
+    <h1>
+
+        Your vision.
+
+        <br>
+
+        <em>Our camera.</em>
+
+    </h1>
+
+
+    <p>
+
+        From personal milestones to professional campaigns,
+        we create films designed to tell your story and
+        leave an impression.
+
+    </p>
+
+</section>
+
+
+
+<section class="service-page section">
+
+
+    <div class="service-list">
+
+
+        <article class="service-detail">
+
+            <span>01</span>
+
+            <div>
+
+                <h2>
+                    Weddings
+                </h2>
+
+                <p>
+
+                    Your wedding day deserves to be remembered
+                    exactly as it felt. We capture the laughter,
+                    tears, excitement, people, and little moments
+                    that make your day uniquely yours.
+
+                </p>
+
+            </div>
+
+        </article>
+
+
+
+        <article class="service-detail">
+
+            <span>02</span>
+
+            <div>
+
+                <h2>
+                    Events
+                </h2>
+
+                <p>
+
+                    Conferences, celebrations, parties, launches,
+                    performances, and special events. We'll capture
+                    the energy and moments that bring your event to life.
+
+                </p>
+
+            </div>
+
+        </article>
+
+
+
+        <article class="service-detail">
+
+            <span>03</span>
+
+            <div>
+
+                <h2>
+                    Brands & Businesses
+                </h2>
+
+                <p>
+
+                    Give your business a visual story. From promotional
+                    videos and social media content to brand films,
+                    we'll create content that helps people connect
+                    with what you do.
+
+                </p>
+
+            </div>
+
+        </article>
+
+
+
+        <article class="service-detail">
+
+            <span>04</span>
+
+            <div>
+
+                <h2>
+                    Families & Milestones
+                </h2>
+
+                <p>
+
+                    The years go by faster than we realize. Capture
+                    birthdays, family milestones, celebrations, and
+                    the moments you never want to forget.
+
+                </p>
+
+            </div>
+
+        </article>
+
+
+
+        <article class="service-detail">
+
+            <span>05</span>
+
+            <div>
+
+                <h2>
+                    Creative Projects
+                </h2>
+
+                <p>
+
+                    Have an idea that doesn't fit inside a box?
+                    Let's create it. We're always excited to work
+                    on unique concepts, creative projects, and
+                    visual storytelling.
+
+                </p>
+
+            </div>
+
+        </article>
+
+
+    </div>
+
+</section>
+
+
+
+<section class="cta-section">
+
+    <div>
+
+        <p class="eyebrow">
+            HAVE AN IDEA?
+        </p>
+
+
+        <h2>
+
+            Let's bring it
+
+            <em>to life.</em>
+
+        </h2>
+
+
+        <a
+            href="{{ url_for('contact') }}"
+            class="button"
+        >
+            Tell Us About It
+        </a>
+
+    </div>
+
+</section>
+
+
+</main>
+
+
+
+<footer>
+
+    <div class="footer-container">
+
+        <div>
+
+            <a
+                href="{{ url_for('home') }}"
+                class="footer-logo"
+            >
+                WHITEKER FILMS
+            </a>
+
+            <p>
+                Cinematic storytelling for life's moments,
+                milestones, and brands.
+            </p>
+
+        </div>
+
+
+        <div class="footer-links">
+
+            <a href="{{ url_for('home') }}">Home</a>
+
+            <a href="{{ url_for('portfolio') }}">
+                Portfolio
+            </a>
+
+            <a href="{{ url_for('about') }}">About</a>
+
+            <a href="{{ url_for('contact') }}">
+                Contact
+            </a>
+
+        </div>
+
+
+        <div class="footer-contact">
+
+            <a href="mailto:haileyw@whitekerfilms.com">
+                haileyw@whitekerfilms.com
+            </a>
+
+        </div>
+
+    </div>
+
+
+    <div class="copyright">
+        © 2026 Whiteker Films. All rights reserved.
+    </div>
+
+</footer>
+
+
+<script
+    src="{{ url_for('static', filename='js/script.js') }}"
+></script>
+
+
+</body>
+
+</html>
